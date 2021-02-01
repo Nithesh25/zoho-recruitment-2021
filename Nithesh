@@ -1,0 +1,32 @@
+#include<stdio.h>
+void main()
+{
+int n,i,j,k=0;
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+  for(j=1;j<=(2*n)-1;j++)
+   {
+     while(j<=n-i);
+     do { while(i%2==1);
+             do{
+                            k++;
+                            printf("%d",k);
+                            break;
+                        }
+                    while(i%2!=2);
+                    do{
+                               printf("%d",k);
+                               k--;
+                               break;
+                            }
+     }
+          k+=n;
+          printf("/n");
+    }
+} 
+}
+
+
+
+
